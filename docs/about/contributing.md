@@ -22,7 +22,7 @@ If you have a suggestion for a new use case concept and are not familiar with Gi
 
 If you are familiar with GitHub please either:
 
-  - [open an issue](https://github.com/nih-cfde/usecases/issues/new) describing your idea
+  - [open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) describing your idea
   
   - or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
 
@@ -31,16 +31,18 @@ If you are submitting a pull request, please create one pull request per use cas
 
 PR process:
 
-**First, preview new changes**
+**First, preview new changes:**
 
   - Create a new branch in the [use cases repo](https://github.com/nih-cfde/usecases)
   - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to add your new use case files
-  - Submit a PR from your branch to the `preview` branch. After you submit the PR, make sure the repo checks complete (green check mark).
-  - If the checks complete successfully, merge the changes and view the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/) to check the changes. It can take ~30 minutes for the new changes to appear. If the checks failed, you can submit an issue for help.
+  - Submit a PR from your branch to the `preview` branch
+  - After you submit the PR, make sure the repo checks complete (green check mark)
+  - If the checks complete successfully, merge the changes and view the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/) to check the changes. It can take ~30 minutes for the new changes to appear. If the checks failed, you can submit an [issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) to request help (please include a reference (`#`) to your PR).
 
-**Second, if you are satisfied with the changes, submit a new PR from your branch to the `master` branch.**
+**Second, if you are satisfied with the changes:**
 
-  - Request review from @Acharbonneau and @marisalim
+  - Submit a new PR from your branch to the `master` branch
+  - Request reviews from @Acharbonneau and @marisalim
   - Please allow up to one week for admin to review your request
 
 
@@ -53,7 +55,7 @@ in progress | &#x23F3;
 approved | &#x1F44C;
 done | &#x2705;
 
-If you have any questions about contributing, please [open an issue](https://github.com/nih-cfde/usecases/issues/new) and we will lend a hand ASAP.
+If you have any questions about contributing, please [open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) and we will lend a hand ASAP.
 
 Thank you for being here and for being a part of the CFDE project!
 
@@ -119,7 +121,7 @@ The **Site index** is automatically created by yaml headers in each file (only t
     - `User Tasks`: a bullet point list of the tasks required for the use case, including links to each task page. Tasks are numbered by `TXXXX`.
     - `Requirements`: a bullet point list of the requirements for each task, including links to each requirement page. Requirements are numbered by `RXXXXX`.
 - The persona, objective, user tasks, and requirements need to be linked to their corresponding description page (detailed in the following sections)
-- See [use case file template](../template_files/use-case-template.md)
+- See [use case file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/use-case-template.md)
 - Use case files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/use-cases)
 
 ### `Persona` files
@@ -127,14 +129,14 @@ The **Site index** is automatically created by yaml headers in each file (only t
     - yaml index header
     - Short description of their biological/computational experience, their role and responsibilities, and relation to any of the other Personas in the Use Cases Repository
     - A section listing assumptions about the persona's credentials e.g., access to the CFDE
-- See [persona file template](../template_files/persona-template.md)
+- See [persona file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/persona-template.md)
 - Persona files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/personas/)
 
 ### `Objective` files
 - Required sections:
     - yaml index header
     - `<name of the task>:`: brief ~1 sentence description of the task
-- See [objective file template](../template_files/objective-template.md)
+- See [objective file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/objective-template.md)
 - Objective files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/objectives/)
 
 ### `User task` files
@@ -143,7 +145,7 @@ The **Site index** is automatically created by yaml headers in each file (only t
 - Required sections:
     - yaml index header
     - `Appears in Use Cases:`: bullet point list of the use case(s) that the task appears in, with page link to the use case page(s)
-- See [user task file template](../template_files/user-task-template.md)
+- See [user task file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/user-task-template.md)
 - User task files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/user-tasks/)
 
 ### `Requirement` files
@@ -155,5 +157,5 @@ The **Site index** is automatically created by yaml headers in each file (only t
     - An `Appears in` section with two sub-sections:
       - Under `User Tasks`: bullet point list of the task(s) that the requirement appears in, with page link to the user task page
       - Under `Use Cases`: bullet point list of the use case(s) that the requirement appears in, with page link to the use case page(s)
-- See [requirement file template](../template_files/requirement-template.md)
+- See [requirement file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/requirement-template.md)
 - Requirements files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/requirements/)
