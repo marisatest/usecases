@@ -26,10 +26,8 @@ If you are familiar with GitHub please either:
   
   - or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
 
-### PR format
+### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
-
-PR process:
 
 **First, preview new changes:**
 
