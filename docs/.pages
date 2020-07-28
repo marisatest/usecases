@@ -1,5 +1,6 @@
 arrange:
   - index.md
+  - ../about/contibuting.md
   - use-cases
   - personas
   - objectives
