@@ -26,7 +26,7 @@ If you are familiar with GitHub please either:
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
-Please add tags to issues to help us quickly locate issue types. Tags are entered as a comma-separated list of the first three letters of the tag name. Some useful tags include: `new` = `new use case`, `hel` = `help wanted`, `que` = `question`, or `enh` = `enhancement`.
+Please add tags to issues to help us quickly locate issue types. Tags are entered as a comma-separated list of the first three letters of the tag name in brackets (`[ ]`). Some useful tags include: `new` = `new use case`, `hel` = `help wanted`, `que` = `question`, or `enh` = `enhancement`.
 
 ### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
