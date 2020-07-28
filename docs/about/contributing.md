@@ -22,7 +22,7 @@ If you have a suggestion for a new use case concept and are not familiar with Gi
 
 If you are familiar with GitHub please either:
 
-  - [open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) describing your idea
+  - [open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) describing your idea. Add tags to help us quickly locate issue types. Tags are entered as a comma-separated list of the first three letters of the tag name. Some useful tags include: `new` = `new use case`, `hel` = `help wanted`, `que` = `question`, or `enh` = `enhancement`.
   
   - or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
 
@@ -45,13 +45,8 @@ If you are submitting a pull request, please create one pull request per use cas
 
 
 ### Use Case approval process
-- The Use Case committee will mark proposed use cases, and corresponding requirements pages, as `in progress`, `approved`, and `done`, as appropriate:
 
-Progress | Symbol
---- | ---
-in progress | &#x23F3;
-approved | &#x1F44C;
-done | &#x2705;
+The Use Case committee will mark proposed use cases, and corresponding requirements pages, as `in progress`=&#x23F3;, `approved`=&#x1F44C;, and `done`=&#x2705;, as appropriate.
 
 If you have any questions about contributing, please [open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) and we will lend a hand ASAP.
 
@@ -71,7 +66,7 @@ Thank you for being here and for being a part of the CFDE project!
 
 ### General File Format
 
-**File format** for all files should be written in Markdown.
+The **file format** for all files should be written in Markdown.
 
 - For help with Markdown syntax, see this [basic syntax guide](https://www.markdownguide.org/basic-syntax/)
 - To add links to other pages:
@@ -84,7 +79,7 @@ Thank you for being here and for being a part of the CFDE project!
 [Clinical Researcher](../personas/clinical-researcher.md)
 ```
     
-The **Site index** is automatically created by yaml headers in each file (only the title will be visible on the rendered website). See [template files](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) for example structure.
+The **site index** is automatically created by yaml headers in each file (only the title will be visible on the rendered website). See [template files](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) for example structure.
 
   The `parent` yaml value depends on the website tab the Use Case file appears in:
   
