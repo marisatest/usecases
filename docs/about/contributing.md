@@ -26,7 +26,7 @@ If you are familiar with GitHub please either:
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
-Please add tags to issues to help us quickly locate issue types. Some useful tags include: `new use case`, `help wanted`, `question`, or `enhancement`.
+Please add labels to issues to help us quickly locate issue types. Some useful labels include: `new use case`, `help wanted`, `question`, or `enhancement`.
 
 ### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
